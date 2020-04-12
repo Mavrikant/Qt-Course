@@ -3,6 +3,8 @@
 #include <string>
 
 using namespace std;
+/* NOTE: global olarak verilen metodlar, sinifin static private uye metodlari haline getirilebilir. */
+/* Boylelikle Object Oriented Programming yaklasimiyla proje gerceklestirilmis olur.                */
 int check_leap_year(int year);
 int no_of_days_in_month(int month, int year);
 long long int difference_of_days(int day1,int month1, int year1, int day2, int month2, int year2);
@@ -29,6 +31,8 @@ void DateClass::print(){
     cout << m_day << m_date_sep << m_month << m_date_sep << m_year << endl;
 }
 
+/* NOTE: Sadece metod cagrisi yapiliyorsa, "difference_of_days" metodunun icerigi */
+/* "DiffDate" metoduna alinarak daha sade bir yaklasim gerceklestirilebilir.      */
 int64_t DateClass::DiffDate(DateClass Diff){
     return difference_of_days(m_day,m_month,m_year,Diff.m_day,Diff.m_month,Diff.m_year);
 }
