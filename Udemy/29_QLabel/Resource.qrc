@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Primary_Flight_Display_of_a_Boeing_737-800.png</file>
+    </qresource>
+</RCC>
