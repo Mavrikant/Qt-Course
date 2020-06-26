@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images"/>
+    <qresource prefix="/">
+        <file>images/Al-Khwarizmi.jpg</file>
+        <file>images/al-Khwarizmi.gif</file>
+    </qresource>
+</RCC>
