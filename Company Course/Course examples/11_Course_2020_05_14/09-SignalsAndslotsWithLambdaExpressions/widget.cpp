@@ -17,7 +17,7 @@ Widget::Widget(QWidget *parent) : QWidget(parent)
 		connect(button, &QPushButton::clicked, [this, digit]()
 		{
 			onPushButtonClicked(digit);
-		});
+        });
 	}
 	setLayout(vbox);
 }
